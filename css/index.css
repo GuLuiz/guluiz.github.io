@@ -2,13 +2,21 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #BA1F33;
   border-bottom: 10px solid #000;
   padding: 10px 20px;
        }
+       
+  div{
+  font-family: 'Press Start 2P', sans-serif;
+  color: white;
+  font-size: 40px;
+  text-shadow: 5px 5px 0px #000 
+      }
 
 nav {
- text-align: right;
+  text-align: right;
   }
 
    a {
@@ -31,19 +39,7 @@ nav {
 }
 
 
-#button {
-  display: inline-block;
-  background-color: white;
-  box-shadow: 5px 5px 0px black; 
-  padding: 24px 15px;
-  margin-right: 0px;
-  color: red;
-  transition: transform 380ms cubic-bezier(.5,.12,.53,2.59);
-  font-family: 'Press Start 2P', cursive;
-  font-size: 15px;
-  }
 
-#button:hover {
- background-color: #000;
-  transform: scale(0.90);
- }
+
+
+ 
